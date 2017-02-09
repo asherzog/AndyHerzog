@@ -12,7 +12,12 @@
       .state({
         name: 'home',
         url: '/',
-        component: 'app',
+        component: 'home',
+      })
+      .state({
+        name: 'projects',
+        url: '/',
+        component: 'projects',
       })
   }
 
