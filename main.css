@@ -45,6 +45,22 @@ h1 {
   margin: 2em;
 }
 
+@-webkit-keyframes project {
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
+@-moz-keyframes project {
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
+@keyframes project {
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 43%}
     50%{background-position:100% 58%}
@@ -100,26 +116,33 @@ body {
 }
 
 preview {
-  /*width: 100%;
-  border: 1px solid black;*/
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
-/*description-component {
-  width: 100%;
-  border: 1px solid black;
-}*/
+projects {
+  color: white;
+}
 
 .projectCard {
   width: 35em;
-  height: 20em;
-  margin: 0.25em;
-  border: 1px solid black;
+  margin: 2em;
 }
 
 .projectCard  img {
   max-width:100%;
-  max-height:100%;
-  border:
+  height: auto;
+}
+
+.info {
+  display: flex;
+}
+
+.info a {
+  width: 3em;
+  margin: 1em;
+}
+
+.credit {
+  font-size: 0.65em;
 }

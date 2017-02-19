@@ -7,6 +7,7 @@
 
   function homeController() {
     const vm = this;
+    document.body.style.background = 'white';
   };
 
 }());
