@@ -18,18 +18,21 @@
       {
         title: 'Poetry Ipsum',
         url: 'https://poetry-ipsum.firebaseapp.com/',
-        github: 'https://github.com/asherzog/Poetry-Ipsum'
+        github: 'https://github.com/asherzog/Poetry-Ipsum',
+        gif: '../../assets/poetry.gif'
       },
       {
         title: 'DonorsComplete',
         url: 'https://donorscomplete.firebaseapp.com/',
-        github: 'https://github.com/asherzog/DonorsComplete'
+        github: 'https://github.com/asherzog/DonorsComplete',
+        gif: '../../assets/donors.gif'
       },
-      {
-        title: 'DonorsComplete',
-        url: 'https://donorscomplete.firebaseapp.com/',
-        github: 'https://github.com/asherzog/DonorsComplete'
-      }
+      // {
+      //   title: 'DonorsComplete',
+      //   url: 'https://donorscomplete.firebaseapp.com/',
+      //   github: 'https://github.com/asherzog/DonorsComplete',
+      //   gif: '../../assets/donors.gif'
+      // }
     ];
 
   }

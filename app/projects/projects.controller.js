@@ -7,7 +7,7 @@
 
   function projectsController() {
     const vm = this;
-    
+    document.body.style.background = 'black';
   }
 
 }());
