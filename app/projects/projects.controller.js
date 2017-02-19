@@ -7,12 +7,12 @@
 
   function projectsController() {
     const vm = this;
-    document.body.style = `background: linear-gradient(53deg, #191d1c, #60a28c, #212a27);
+    document.body.style = `background: linear-gradient(118deg, #060a1d, #1e6369, #0a0d2d);
                             background-size: 600% 600%;
 
-                            -webkit-animation: project 23s ease infinite;
-                            -moz-animation: project 23s ease infinite;
-                            animation: project 23s ease infinite;`;
+                            -webkit-animation: project 24s ease infinite;
+                            -moz-animation: project 24s ease infinite;
+                            animation: project 24s ease infinite;`;
   }
 
 }());

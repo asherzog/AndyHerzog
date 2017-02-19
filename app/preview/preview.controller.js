@@ -10,12 +10,21 @@
 
     vm.projects = [
       {
+        title: 'Johnny-Four Bot',
+        url: 'https://github.com/Johnny-Four',
+        github: 'https://github.com/Johnny-Four',
+        image: '../../assets/johnnyFour.png',
+        gif: '../../assets/johnnyFour.png',
+        tech: 'AngularJS, Angular Material, Raspberry Pi, Web Sockets, PostgreSQL, Node.js, Express, JavaScript, CSS, HTML',
+        description: "IOT 'NodeBot' created to have motor control and live streaming available to users in the browser."
+      },
+      {
         title: 'Spot Ninja',
         url: 'https://spot-ninja.firebaseapp.com/',
         github: 'https://github.com/teamBetterThanAwesome/Spot-NinjaFrontEnd',
         image: '../../assets/spotninja.png',
         gif: '../../assets/spotninja.gif',
-        tech: 'CSS, HTML, AJAX, PostgreSQL, Node, Express, jQuery, Javascript, Bootstrap',
+        tech: 'PostgreSQL, Node.js, Express, jQuery, JavaScript, AJAX, Bootstrap, CSS, HTML',
         description: "Mobile first web application created to assist users in finding and storing their favorite parking spots around Denver, CO."
       },
       {
@@ -24,7 +33,7 @@
         github: 'https://github.com/asherzog/Poetry-Ipsum',
         image: '../../assets/poetry.png',
         gif: '../../assets/poetry.gif',
-        tech: 'AJAX, jQuery, JSON, CSS, Bootstrap, HTML, Javascript',
+        tech: 'jQuery, JSON, AJAX, CSS, Bootstrap, HTML, JavaScript',
         description: "Generates Lorem Ipsum style filler text by combining random poem lines for a given poet. Users are given the option to select their favorite poet, number of paragraphs, or find new poets."
       },
       {
@@ -33,8 +42,8 @@
         github: 'https://github.com/asherzog/DonorsComplete',
         image: '../../assets/donors.png',
         gif: '../../assets/donors.gif',
-        tech: 'AJAX, Materialize CSS, jQuery, HTML, Javascript, JSON',
-        description: "Web application built in hopes of increasing donor activity on the crowdfunding site 'Donors Choose' by reorginizing funding requests based on proximity to completion. Users also have the ability to search based on location."
+        tech: 'JavaScript, JSON, AJAX, Materialize CSS, jQuery, HTML',
+        description: "Web application built in hopes of increasing donor activity on the crowdfunding site 'Donors Choose' by reorginizing funding requests based on proximity to completion."
       }
     ];
 
