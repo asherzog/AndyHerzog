@@ -45,6 +45,22 @@ h1 {
   margin: 2em;
 }
 
+@-webkit-keyframes projects {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}
+@-moz-keyframes projects {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}
+@keyframes projects {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 43%}
     50%{background-position:100% 58%}
@@ -106,6 +122,10 @@ preview {
 
 projects {
   color: white;
+}
+
+.projectTest {
+  background: black;
 }
 
 .projectCard {
