@@ -1,8 +1,11 @@
 <section>
   <div class="cardContainer">
     <div ng-repeat="project in $ctrl.projects">
-      <div class="projectCard">
-        <img src="{{project.gif}}" alt="">
+
+      <div class="projectCard" ng-init="imgsrc= project.image" ng-mouseover="imgsrc= project.gif" ng-mouseout="imgsrc= project.image">
+        <a href="{{project.url}}">
+          <img src="{{imgsrc}}" alt="">
+        </a>
         <h1 class="text-center">{{project.title}}</h1>
       </div>
     </div>
