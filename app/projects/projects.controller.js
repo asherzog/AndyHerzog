@@ -7,6 +7,7 @@
 
   function projectsController() {
     const vm = this;
-  };
+    
+  }
 
 }());
