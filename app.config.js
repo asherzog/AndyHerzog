@@ -16,9 +16,19 @@
       })
       .state({
         name: 'projects',
-        url: '/',
+        url: '/projects',
         component: 'projects',
       })
+      .state({
+        name: 'resume',
+        url: '/resume',
+        component: 'resume',
+      })
+      .state({
+        name: 'contact',
+        url: '/contact',
+        component: 'contact',
+      });
   }
 
 }());

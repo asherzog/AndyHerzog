@@ -4,12 +4,20 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: white;
+  border-bottom: 1px solid white;
+}
+.hamburger {
+  display: none;
 }
 
 ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  margin-top: 15em;
+}
+
+.nav {
+  border-bottom: none;
 }
 
 li {
@@ -17,8 +25,13 @@ li {
   font-family: 'Raleway', sans-serif;
 }
 
- a {
+ li a {
   color: white;
+}
+
+ul.nav > li > a:hover {
+	background-color: white;
+	border-style: none;
 }
 
 .header {
@@ -26,15 +39,23 @@ li {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.35em;
   display: flex;
+  flex-direction: column;
   text-align: center;
-  margin-bottom: 1em;
   cursor: pointer;
 }
 
+.header h6 {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.header h1 {
+  margin-left: -7em;
+}
 
 h1 {
   font-size: 2.5em;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .portrait img {
@@ -90,7 +111,7 @@ header {
 #logo {
   max-width: 10em;
   height: auto;
-  margin-left: 1em;
+  margin-right: 3em;
 }
 
 .about {
@@ -149,4 +170,63 @@ projects {
 
 .credit {
   font-size: 0.65em;
+}
+
+embed {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1100px) {
+  .header {
+    order: 2;
+  }
+  .header h1 {
+    margin-left: 0em;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  #logo {
+    order: 1;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    order: 3;
+  }
+}
+
+#dropdownMenu1 {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.white, .white a {
+  color: #fff;
+  font-size: 2em;
+}
+
+
+@media only screen and (max-width: 640px) {
+  .fullnav {
+    display: none;
+  }
+  #logo {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    align-self: flex-start;
+    order: 10;
+  }
+  .header h1 {
+    margin-left: 0em;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
