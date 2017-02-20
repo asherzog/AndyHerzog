@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: white;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
 }
 .hamburger {
   display: none;
@@ -13,7 +13,7 @@ nav {
 ul {
   display: flex;
   flex-direction: row;
-  margin-top: 15em;
+  margin-top: 10em;
 }
 
 .nav {
@@ -109,7 +109,7 @@ header {
 }
 
 #logo {
-  max-width: 10em;
+  max-width: 12em;
   height: auto;
   margin-right: 3em;
 }
@@ -206,7 +206,7 @@ embed {
 
 .white, .white a {
   color: #fff;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 
@@ -219,7 +219,7 @@ embed {
   }
   .hamburger {
     display: block;
-    align-self: flex-start;
+    align-self: center;
     order: 10;
   }
   .header h1 {
@@ -229,4 +229,14 @@ embed {
     display: flex;
     flex-direction: column;
   }
+}
+
+#name,
+#nav {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: 1s;
 }
