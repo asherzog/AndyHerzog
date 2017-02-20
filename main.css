@@ -17,7 +17,7 @@ li {
   font-family: 'Raleway', sans-serif;
 }
 
-a {
+ a {
   color: white;
 }
 
@@ -42,7 +42,7 @@ h1 {
   height: auto;
   border: 1px solid black;
   border-radius: 10%;
-  margin: 2em;
+  margin: 2em 2em 2em 6em;
 }
 
 @-webkit-keyframes project {
@@ -132,6 +132,10 @@ projects {
 .projectCard  img {
   max-width:100%;
   height: auto;
+}
+
+.projectCard h4 {
+  color: #E0FBDC;
 }
 
 .info {
