@@ -82,17 +82,17 @@ h1 {
     100%{background-position:0% 27%}
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes header {
     0%{background-position:0% 43%}
     50%{background-position:100% 58%}
     100%{background-position:0% 43%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes header {
     0%{background-position:0% 43%}
     50%{background-position:100% 58%}
     100%{background-position:0% 43%}
 }
-@keyframes AnimationName {
+@keyframes header {
     0%{background-position:0% 43%}
     50%{background-position:100% 58%}
     100%{background-position:0% 43%}
@@ -103,9 +103,9 @@ header {
   background: linear-gradient(115deg, #0f6f40, #0d7584, #4fab9e, #0f6f40);
   background-size: 800% 800%;
 
-  -webkit-animation: AnimationName 23s ease infinite;
-  -moz-animation: AnimationName 23s ease infinite;
-  animation: AnimationName 23s ease infinite;
+  -webkit-animation: header 23s ease infinite;
+  -moz-animation: header 23s ease infinite;
+  animation: header 23s ease infinite;
 }
 
 #logo {
