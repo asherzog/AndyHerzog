@@ -11,10 +11,10 @@
     vm.projects = [
       {
         title: 'Johnny-Four Bot',
-        url: 'https://github.com/Johnny-Four',
+        url: 'https://johnny-four.firebaseapp.com/',
         github: 'https://github.com/Johnny-Four',
         image: '../../assets/johnnyFour.png',
-        gif: '../../assets/johnnyFour.png',
+        gif: '../../assets/johnny4.gif',
         tech: 'AngularJS, Angular Material, Raspberry Pi, Web Sockets, PostgreSQL, Node.js, Express, JavaScript, CSS, HTML',
         description: "IOT 'NodeBot' created to have motor control and live streaming available to users in the browser."
       },

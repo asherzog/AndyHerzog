@@ -230,13 +230,3 @@ embed {
     flex-direction: column;
   }
 }
-
-#name,
-#nav {
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 1s;
-  -moz-animation-duration: 3s;
-  -moz-animation-delay: 1s;
-  animation-duration: 3s;
-  animation-delay: 1s;
-}
