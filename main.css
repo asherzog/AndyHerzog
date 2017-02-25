@@ -1,3 +1,9 @@
+body {
+  background: #F2F2F2;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -58,13 +64,37 @@ h1 {
   font-weight: 200;
 }
 
-.portrait img {
-  max-width: 10em;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 10%;
-  margin: 2em 2em 2em 6em;
+.portrait {
+  width: 50vw;
+  height: 100%;
+  background: url(https://images.pexels.com/photos/69213/pexels-photo-69213.jpeg?h=350&auto=compress&cs=tinysrgb);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  background-attachment: fixed;
 }
+
+.portrait2 {
+  width: 50vw;
+  height: 100%;
+  background: url(https://c.stocksy.com/a/2Ea400/z0/1092566.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.top-section {
+  display: flex;
+  height: 80vh;
+  margin-bottom: 5em;
+}
+
+.mid-section {
+  display: flex;
+  height: 80vh;
+}
+
 
 @-webkit-keyframes project {
     0%{background-position:0% 27%}
@@ -117,10 +147,17 @@ header {
 .about {
   font-size: 2em;
   font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: 1em;
+  width: 100%;
+  align-self: center;
 }
 
-body {
-  background: #F2F2F2;
+.about2 {
+  font-size: 2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-right: 1em;
+  width: 100%;
+  align-self: center;
 }
 
 .projects {
@@ -230,9 +267,6 @@ embed {
     flex-direction: column;
   }
 }
-
-
-
 
 .bubbles {
   padding: 100px 0;
