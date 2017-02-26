@@ -1,24 +1,25 @@
 {
-  "name": "Personal-Site",
+  "name": "asherzog.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.module.js",
+  "description": "email me! asherzog19@gmail.com",
+  "main": "app.config.js",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "^1.0.0-beta.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asherzog/AndyHerzog.git"
+    "url": "git+https://github.com/asherzog/asherzog.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/asherzog/AndyHerzog/issues"
+    "url": "https://github.com/asherzog/asherzog.github.io/issues"
   },
-  "homepage": "https://github.com/asherzog/AndyHerzog#readme",
-  "dependencies": {
-    "angular": "^1.6.2",
-    "angular-ui-router": "^1.0.0-beta.3"
-  }
+  "homepage": "https://github.com/asherzog/asherzog.github.io#readme"
 }
