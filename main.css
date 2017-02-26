@@ -65,8 +65,8 @@ h1 {
 }
 
 .portrait {
-  width: 50vw;
-  height: 100%;
+  width: 60vmax;
+  height: auto;
   background: url(https://images.pexels.com/photos/69213/pexels-photo-69213.jpeg?h=350&auto=compress&cs=tinysrgb);
   background-repeat: no-repeat;
   background-position: left;
@@ -75,8 +75,8 @@ h1 {
 }
 
 .portrait2 {
-  width: 50vw;
-  height: 100%;
+  width: 60vmax;
+  height: auto;
   background: url(https://c.stocksy.com/a/2Ea400/z0/1092566.jpg);
   background-repeat: no-repeat;
   background-position: right;
@@ -86,13 +86,13 @@ h1 {
 
 .top-section {
   display: flex;
-  height: 80vh;
+  height: 70vh;
   margin-bottom: 5em;
 }
 
 .mid-section {
   display: flex;
-  height: 80vh;
+  height: 70vh;
 }
 
 
@@ -145,17 +145,15 @@ header {
 }
 
 .about {
-  font-size: 2em;
+  font-size: 3.5vmin;
   font-family: 'Open Sans Condensed', sans-serif;
-  margin-left: 1em;
   width: 100%;
   align-self: center;
 }
 
 .about2 {
-  font-size: 2em;
+  font-size: 3.5vmin;
   font-family: 'Open Sans Condensed', sans-serif;
-  margin-right: 1em;
   width: 100%;
   align-self: center;
 }
