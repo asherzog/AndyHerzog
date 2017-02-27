@@ -8,6 +8,7 @@
   function contactController() {
     const vm = this;
     document.body.style.background = 'white';
+    document.body.className = '';
   }
 
 }());

@@ -8,6 +8,7 @@
   function homeController() {
     const vm = this;
     document.body.style.background = 'white';
+    document.body.className = '';
 
     vm.logos = [
       'https://angular.io/resources/images/logos/angular2/angular.png',
