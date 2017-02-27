@@ -40,14 +40,6 @@ ul.nav > li > a:hover {
 	border-style: none;
 }
 
-.project-class {
-  background: linear-gradient(118deg, #060a1d, #1e6369, #0a0d2d);
-  background-size: 600% 600%;
-
-  -webkit-animation: project 24s ease infinite;
-  -moz-animation: project 24s ease infinite;
-  animation: project 24s ease infinite;
-}
 
 .header {
   font-size: 2em;
@@ -137,6 +129,14 @@ h1 {
     100%{background-position:0% 43%}
 }
 
+.project-class {
+  background: linear-gradient(118deg, #060a1d, #1e6369, #0a0d2d);
+  background-size: 600% 600%;
+
+  -webkit-animation: project 24s ease infinite;
+  -moz-animation: project 24s ease infinite;
+  animation: project 24s ease infinite;
+}
 
 header {
   background: linear-gradient(115deg, #0f6f40, #0d7584, #4fab9e, #0f6f40);
