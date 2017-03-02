@@ -529,8 +529,10 @@ embed {
   transform: translateZ(-2px) scale(3);
 }
 
-.testing {
-  height: 30vh;
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .front {
@@ -545,7 +547,7 @@ embed {
 
 .contact-icon  img{
   max-height: 5em;
-  margin-top: 2em;
+  margin-top: 0.75em;
 }
 .contact-icon {
   margin-right: 1em;
@@ -553,4 +555,5 @@ embed {
 
 .contact {
   display: flex;
+  margin: 1em;
 }

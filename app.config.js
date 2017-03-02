@@ -7,8 +7,6 @@
 
   function config($stateProvider, $urlRouterProvider, $locationProvider){
 
-    // $urlRouterProvider.when('', '/');
-
     $stateProvider
       .state({
         name: 'home',
