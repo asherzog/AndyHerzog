@@ -496,3 +496,38 @@ embed {
         margin-left:50px;
     }
 }
+
+.parallax {
+  perspective: 1px;
+  height: 50vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  background-image: url('https://img.clipartfest.com/5dc6c4b07664128278db9e8db2947b47_clouds20clipart-cloud-images-clip-art_533-533.svg');
+  background-size: contain;
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  background-image: url('https://img.clipartfox.com/ad48964748bff2fbb350f4a25360adba_-cloud-clip-art-vector-cloud-shapes-clip-art_744-1052.svg');
+  background-size: contain;
+  transform: translateZ(-1px);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+.parallax__layer--deep {
+  transform: translateZ(-2px) scale(3);
+}
+
+.testing {
+  height: 100vh;
+}
