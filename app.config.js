@@ -7,6 +7,8 @@
 
   function config($stateProvider, $urlRouterProvider, $locationProvider){
 
+    // $urlRouterProvider.when('', '/');
+
     $stateProvider
       .state({
         name: 'home',
@@ -28,6 +30,6 @@
         url: '/contact',
         component: 'contact',
       });
+    $urlRouterProvider.otherwise('/');
   }
-
 }());

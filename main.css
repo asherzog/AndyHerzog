@@ -542,3 +542,15 @@ embed {
 .tree-wrapper {
   background: linear-gradient(white 80%, #628F57 10%, #573A06);
 }
+
+.contact-icon  img{
+  max-height: 5em;
+  margin-top: 2em;
+}
+.contact-icon {
+  margin-right: 1em;
+}
+
+.contact {
+  display: flex;
+}
