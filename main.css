@@ -502,6 +502,7 @@ embed {
   height: 50vh;
   overflow-x: hidden;
   overflow-y: auto;
+  background: linear-gradient(#54C5EB 10%, white);
 }
 .parallax__layer {
   position: absolute;
@@ -529,5 +530,15 @@ embed {
 }
 
 .testing {
-  height: 100vh;
+  height: 30vh;
+}
+
+.front {
+  background: url('https://img.clipartfest.com/a982fd3369bb11918a850b35a59b42ba_pine-tree-clipart-pine-tree-clip-art-free_299-258.png');
+  height: 50vh;
+  background-size: contain;
+}
+
+.tree-wrapper {
+  background: linear-gradient(white 80%, #628F57 10%, #573A06);
 }
