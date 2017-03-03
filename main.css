@@ -66,19 +66,20 @@ h1 {
 }
 
 .portrait {
-  width: 60vmax;
+  width: 50vmax;
   height: auto;
-  background: url(https://images.pexels.com/photos/69213/pexels-photo-69213.jpeg?h=350&auto=compress&cs=tinysrgb);
+  background: url(./assets/andy.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
   background-attachment: fixed;
+  margin-right: 1em;
 }
 
 .portrait2 {
-  width: 60vmax;
-  height: auto;
-  background: url(https://c.stocksy.com/a/2Ea400/z0/1092566.jpg);
+  width: 50vmax;
+  height: 40vmax;
+  background: url(./assets/andy2.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
