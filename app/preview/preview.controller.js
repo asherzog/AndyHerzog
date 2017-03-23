@@ -10,6 +10,15 @@
 
     vm.projects = [
       {
+        title: 'DropTable',
+        url: 'https://www.youtube.com/watch?v=MhMb5LuOb7k&feature=youtu.be',
+        github: 'https://github.com/asherzog/Fake-Capstone',
+        image: '../../assets/waterdrop.png',
+        gif: '../../assets/droptable.gif',
+        tech: 'Electron, AngularJS, Chart.js, Node.js, Express, MongoDB, Bootstrap, JavaScript, CSS, HTML',
+        description: "Desktop app for water management and well scheduling in the oil and gas industry."
+      },
+      {
         title: 'Johnny-Four Bot',
         url: 'https://johnny-four.firebaseapp.com/',
         github: 'https://github.com/Johnny-Four',
