@@ -13,7 +13,7 @@
         title: 'DropTable',
         url: 'https://www.youtube.com/watch?v=MhMb5LuOb7k&feature=youtu.be',
         github: 'https://github.com/asherzog/Fake-Capstone',
-        image: '../../assets/waterdrop.png',
+        image: '../../assets/dropTable.png',
         gif: '../../assets/droptable.gif',
         tech: 'Electron, AngularJS, Chart.js, Node.js, Express, MongoDB, Bootstrap, JavaScript, CSS, HTML',
         description: "Desktop app for water management and well scheduling in the oil and gas industry."
