@@ -1,2 +1,3 @@
-#Andy Herzog
-email me! asherzog19@gmail.com
+# Andy Herzog
+### Full Stack Web Developer 
+#### Denver, CO | asherzog19@gmail.com
